@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Project Management Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+
+        <script
+        src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class='page-header text-center'>
+                <h2>Project Management Form</h2>
+            </div>
+            <form id="empForm" method="get">
+                <div class="form-group">
+                    <label>Project ID:</label>
+                    <input type="number" class="form-control"  id="proId" onchange="getPro()">
+                </div>
+                <div class="form-group">
+                    <label>Project Name:</label>
+                    <input type="text" class="form-control" id="proName">
+                </div>
+                <div class="form-group">
+                    <label>Assigned to:</label>
+                    <input type="text" class="form-control" id="assignTo">
+                </div>
+                <div class="form-group">
+                    <label>Assignment Date:</label>
+                    <input type="date" class="form-control" id="assignDate">
+                </div>
+                <div class="form-group">
+                    <label>Deadline:</label>
+                    <input type="date" class="form-control" id="dL">
+                </div>
+            
+                <div class="form-group text-center">
+                    <button type="button" onclick="saveData()" id="save" class="btn btn-primary btn-rounded">Save</button>
+                    <button type="button" onclick="changeData()" id="change" class="btn btn-primary btn-rounded">Update</button>
+                    <button type="button" onclick="resetForm()" id="reset" class="btn btn-primary btn-rounded">Reset</button>
+                </div>
+
+            </form>
+        </div>
+
+        <script type="text/javascript" src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+
+    </body>
+
+</html>
