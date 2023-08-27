@@ -8,7 +8,8 @@ Resource Allocation: A project management form can help allocate resources, incl
 Time Management: College students often have multiple assignments and deadlines. A project management form includes a schedule or timeline, helping students manage their time wisely to complete the project on time without overwhelming themselves.
 Documentation: College projects often require documentation for assessment purposes. A project management form can serve as a central repository for project-related documentation, making it easier for students to compile the necessary materials for evaluation.
 
-## JsonpowerDB
+## JsonPowerDB
+
 JSONPowerDB is a High Performance, Light Weight, Ajax Enabled, Serverless, Simple to Use, Real-time Database. Easy and fast to develop database applications without using any server side programming / scripting or without installing any kind of database.
 
 It is basically a Database Server with Developer friendly REST API services.
